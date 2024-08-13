@@ -1,6 +1,6 @@
 export function deleteCar(event) {
     const carId = event.target.getAttribute('data-id');
-    fetch('http://localhost:3000/cars', {
+    fetch('https://backendex-5.onrender.com/cars', {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',

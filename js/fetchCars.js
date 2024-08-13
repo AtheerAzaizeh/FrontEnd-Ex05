@@ -1,5 +1,5 @@
 export function fetchCars(carList, editCar, deleteCar) {
-    fetch('http://localhost:3000/cars')
+    fetch('https://backendex-5.onrender.com/cars')
         .then(response => response.json())
         .then(data => {
             carList.innerHTML = '';

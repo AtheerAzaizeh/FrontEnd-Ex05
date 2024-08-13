@@ -13,7 +13,7 @@ export function submitCarForm(event) {
     const feedback = carFeedbackInput.value;
 
     const method = window.editingCarId ? 'PUT' : 'POST';
-    const url = 'http://localhost:3000/cars';
+    const url = 'https://backendex-5.onrender.com/cars';
 
     fetch(url, {
         method: method,
